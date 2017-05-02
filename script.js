@@ -1,4 +1,4 @@
-$(document).on("pagecreate",function(){
+$(document).on("pagecreate", "#pageone", function(){
 
     $(".view").on('swiperight', swiperightHandeler);
     $(".view").on('swipeleft', swipeleftHandeler);
