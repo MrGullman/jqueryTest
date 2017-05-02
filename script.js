@@ -15,5 +15,13 @@ $(document).on("pagecreate",function(){
       //$(this).removeClass("swiperight");
     }
 
+    $(document).on('swipeleft', 'li', function(){
+      console.log("swipe left");
+    });
+
+    $(document).on('swiperight', 'li', function(){
+      console.log("swipe right");
+    });
+
 
 });
