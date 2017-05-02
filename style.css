@@ -10,6 +10,10 @@ body {
     height: 100%;
 }
 
+p {
+    position: relative;
+}
+
 nav ul {
     position: relative;
     overflow: auto;
