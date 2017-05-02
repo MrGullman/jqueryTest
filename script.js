@@ -1,4 +1,4 @@
-$(document).on("pagecreate", "#pageone", function(){
+$(document).on("pagecreate", function(){
 
     $("p").on("swiperight",function(){
         $(this).animate({left: "150px"}, 400);
