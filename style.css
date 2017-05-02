@@ -17,6 +17,7 @@ p {
 nav ul {
     position: relative;
     overflow: auto;
+    overflow-x: hidden;
 }
 
 

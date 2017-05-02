@@ -1,11 +1,14 @@
 $(document).on("pagecreate", function(){
 
-    $("p").on("swiperight",function(){
+    $(".view").on("swiperight",function(){
         $(this).animate({left: "150px"}, 400);
+        $(this).prev().animate({left:"0px"}, 400);
+
     });
 
-    $("p").on("swipeleft",function(){
+    $(".view").on("swipeleft",function(){
         $(this).animate({left: "0px"}, 400);
+        $(this).prev().animate({left:"-150px"}, 400);
     });
 
     // $(".view").on('swiperight', swiperightHandeler);
