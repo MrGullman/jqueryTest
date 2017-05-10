@@ -1,7 +1,9 @@
 $(document).on("pagecreate", function(){
 
     $(".view").on("swiperight",function(){
+
         $('.view').animate({left: "0px"}, 400);
+
         $(this).animate({left: "150px"}, 400);
         $(this).prev().animate({left:"0px"}, 400);
     });
